@@ -1,0 +1,62 @@
+.header {
+  background-color: black;
+  height: 100px;
+  margin: 0;
+  padding: 10px;
+  color: white;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+}
+
+.title {
+  float: left;
+  font-size: 50px;
+  line-height: 50px;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 20px;
+}
+
+.title a:hover{
+  color: #C8C5BA;
+}
+
+.site-navigation {
+  padding: 15px 0;
+  float: right;
+}
+
+.site-navigation li {
+  position: relative;
+  float: left;
+  margin: 0;
+  font-size: 18px;
+  line-height: 18px;
+  text-transform: uppercase;
+  list-style: none;
+}
+
+.site-navigation li a {
+  position: relative;
+  padding: 10px 20px 38px 20px;
+}
+
+.site-navigation li a:hover {
+  color: #C8C5BA;
+}
+
+.site-navigation li a:active {
+  color: seashell;
+}
+
+.hello-box {
+  text-align: left;
+}
+
+.hello-box a{
+  text-decoration: none;
+  color: black;
+}

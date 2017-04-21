@@ -1,0 +1,29 @@
+.login {
+  text-align: center;
+}
+
+.login button{
+  color: #000000;
+  background: #EFEADA;
+  padding: 5px;
+  outline: none;
+  width: 100px;
+}
+
+.login button:hover {
+  background: #708090;
+}
+.login button:active {
+  background: grey;
+}
+
+.login input{
+  height: 30px;
+  margin: 10px;
+  width: 250px;
+}
+
+#remember-checkbox {
+  height: auto;
+  width: auto;
+}

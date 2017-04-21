@@ -1,0 +1,26 @@
+.game-table {
+  background: url(/img/table-texture.png);
+  border-radius: 10%;
+  padding: 20px;
+  width: 500px;
+  height: 500px;
+  margin: 10px auto;
+}
+
+.game-players {
+  margin: 20px auto;
+  width: 600px;
+}
+
+.game-hand {
+  color: white;
+
+  width: 200px;
+  height: 200px;
+  //background: grey;
+  padding: 20px;
+
+  margin: 20px;
+
+  float: left;
+}

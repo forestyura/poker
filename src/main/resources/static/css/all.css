@@ -1,0 +1,124 @@
+.page {
+  background-color: grey;
+  width: 100%;
+  font-size: 20px;
+  margin: auto;
+  font-family: Palatino Linotype, Book Antiqua3, Palatino6, serif; }
+
+.header {
+  background-color: black;
+  height: 100px;
+  margin: 0;
+  padding: 10px;
+  color: white; }
+
+.header a {
+  color: white;
+  text-decoration: none; }
+
+.title {
+  float: left;
+  font-size: 50px;
+  line-height: 50px;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 20px; }
+
+.title a:hover {
+  color: #C8C5BA; }
+
+.site-navigation {
+  padding: 15px 0;
+  float: right; }
+
+.site-navigation li {
+  position: relative;
+  float: left;
+  margin: 0;
+  font-size: 18px;
+  line-height: 18px;
+  text-transform: uppercase;
+  list-style: none; }
+
+.site-navigation li a {
+  position: relative;
+  padding: 10px 20px 38px 20px; }
+
+.site-navigation li a:hover {
+  color: #C8C5BA; }
+
+.site-navigation li a:active {
+  color: seashell; }
+
+.hello-box {
+  text-align: left; }
+
+.hello-box a {
+  text-decoration: none;
+  color: black; }
+
+.login {
+  text-align: center; }
+
+.login button {
+  color: #000000;
+  background: #EFEADA;
+  padding: 5px;
+  outline: none;
+  width: 100px; }
+
+.login button:hover {
+  background: #708090; }
+
+.login button:active {
+  background: grey; }
+
+.login input {
+  height: 30px;
+  margin: 10px;
+  width: 250px; }
+
+#remember-checkbox {
+  height: auto;
+  width: auto; }
+
+.game-table {
+  background: url(/img/table-texture.png);
+  border-radius: 10%;
+  padding: 20px;
+  width: 500px;
+  height: 500px;
+  margin: 10px auto; }
+
+.game-players {
+  margin: 20px auto;
+  width: 600px; }
+
+.game-hand {
+  color: white;
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  margin: 20px;
+  float: left; }
+
+.registration {
+  text-align: center; }
+
+.registration button {
+  color: #000000;
+  background: #EFEADA;
+  padding: 5px;
+  outline: none;
+  width: 100px; }
+
+.registration button:hover {
+  background: #708090; }
+
+.registration button:active {
+  background: grey; }
+
+.registration input {
+  height: 30px;
+  margin: 10px;
+  width: 250px; }

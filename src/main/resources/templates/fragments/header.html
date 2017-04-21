@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" ng-app>
+<link rel="stylesheet" media="screen" th:href="@{/css/all.min.css}"/>
+<script th:src="@{js/angular/angular.min.js}"></script>
+<head>
+    <title>Holdem Poker</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body class="page">
+<div class="header" th:fragment="header">
+    <div class="title">
+        <a th:href="@{/}">Holdem Poker</a>
+    </div>
+    <ul class="site-navigation">
+        <li><a th:href="@{/}">Home</a></li>
+        <li><a th:href="@{/game}">Game</a></li>
+        <li><a th:href="@{/statistic}">Statistic</a></li>
+        <li><a th:href="@{/login}">Log in</a></li>
+    </ul>
+</div>
+</body>
+</html>

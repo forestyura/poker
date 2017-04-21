@@ -1,0 +1,24 @@
+.registration {
+  text-align: center;
+}
+
+.registration button{
+  color: #000000;
+  background: #EFEADA;
+  padding: 5px;
+  outline: none;
+  width: 100px;
+}
+
+.registration button:hover {
+  background: #708090;
+}
+.registration button:active {
+  background: grey;
+}
+
+.registration input{
+  height: 30px;
+  margin: 10px;
+  width: 250px;
+}

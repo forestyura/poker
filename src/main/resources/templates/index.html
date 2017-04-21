@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" ng-app="pokerApp">
+
+    <script th:src="@{js/angular/angular.min.js}"></script>
+    <script th:src="@{js/angular-route/angular-route.min.js}"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script th:src="@{js/all.js}"></script>
+    <link rel="stylesheet" media="screen" th:href="@{/css/all.min.css}"/>
+
+    <head>
+        <title>Holdem Poker</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <base href="/">
+    </head>
+
+    <body class="page" >
+        <div th:replace="fragments/header :: header">&nbsp;</div>
+        <div class="hello-box" ng-controller="headerController">
+            Hello {{username}}
+            <button ng-click="login()" ng-show="!isLogin"><a href="login">Log in</a></button>
+            <button ng-click="logout()" ng-show="isLogin">Log out</button>
+        </div>
+        <ng-view></ng-view>
+    </body>
+
+</html>
